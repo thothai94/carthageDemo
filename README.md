@@ -20,9 +20,10 @@ A carthage framework for demonstration
 The framework has now been published on GitHub!
 
 ## How to use it?
-1. Create `Cartfile` and add the line below:
+1. Create `Cartfile` and add the line below (please note that "v1.0.1" is a tag):
 ```
 github "thothai94/carthageDemo" "v1.0.1"
 ```
+
 2. Run: `carthage update --platform iOS --use-xcframeworks`
 3. Drag the framework from `Carthage/Build` to the Linked Frameworks and Libraries in the target in Xcode
