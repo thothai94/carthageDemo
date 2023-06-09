@@ -9,14 +9,16 @@ A carthage framework for demonstration
    - [optional] On M1 Mac change terminal to bash: `chsh -s /bin/bash`
    - [Install Homebrew](https://brew.sh/): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
    - [Install Carthage](https://formulae.brew.sh/formula/carthage): `brew install carthage`
-1. Create a new Framework project
-1. Start Coding for framework feature
-1. [optional] Create example app, don't forget add your framework into Frameworks, Libraries and Embedded Contains section
-1. Build for Carthage
+2. Create a new Framework project
+   - Ensure you check shared scheme
+   - If carthage update command failed because of "did not have any shared scheme", uncheck then check again in edit scheme window
+3. Start Coding for framework feature
+4. [optional] Create example app, don't forget add your framework into Frameworks, Libraries and Embedded Contains section
+5. Build for Carthage
 - Open Terminal and navigate to the project's folder
 - Run: `carthage build --no-skip-current --use-xcframeworks`
 - Your xcframeworks will be exist inside `Carthage/Buid`
-1. Create repository and push your project into github
+6. Create repository and push your project into github
 The framework has now been published on GitHub!
 
 ## How to use it?
